@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj-pony.applied-migrations-checker"
-version = "0.1.1"
+version = "0.1.4"
 description = "Check that all django database migrations have been applied."
 authors = ["Samuel Bishop <sam@techdragon.io>"]
 license = "MIT"
@@ -10,7 +10,7 @@ packages = [
 
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 django = ">=1.8"
 
 [tool.poetry.dev-dependencies]
